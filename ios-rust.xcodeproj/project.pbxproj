@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A322F39928F09099000A0A4D /* ios_rustApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322F39828F09099000A0A4D /* ios_rustApp.swift */; };
+		A322F39B28F09099000A0A4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322F39A28F09099000A0A4D /* ContentView.swift */; };
+		A322F39D28F0909A000A0A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A322F39C28F0909A000A0A4D /* Assets.xcassets */; };
+		A322F3A028F0909A000A0A4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A322F39F28F0909A000A0A4D /* Preview Assets.xcassets */; };
+		A322F3AB28F0909B000A0A4D /* ios_rustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322F3AA28F0909B000A0A4D /* ios_rustTests.swift */; };
+		A322F3B528F0909B000A0A4D /* ios_rustUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322F3B428F0909B000A0A4D /* ios_rustUITests.swift */; };
+		A322F3B728F0909B000A0A4D /* ios_rustUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322F3B628F0909B000A0A4D /* ios_rustUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A322F3A728F0909B000A0A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A322F38D28F09099000A0A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A322F39428F09099000A0A4D;
+			remoteInfo = "ios-rust";
+		};
+		A322F3B128F0909B000A0A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A322F38D28F09099000A0A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A322F39428F09099000A0A4D;
+			remoteInfo = "ios-rust";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A322F39528F09099000A0A4D /* ios-rust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-rust.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A322F39828F09099000A0A4D /* ios_rustApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_rustApp.swift; sourceTree = "<group>"; };
+		A322F39A28F09099000A0A4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A322F39C28F0909A000A0A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A322F39F28F0909A000A0A4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A322F3A128F0909A000A0A4D /* ios_rust.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ios_rust.entitlements; sourceTree = "<group>"; };
+		A322F3A628F0909B000A0A4D /* ios-rustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-rustTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A322F3AA28F0909B000A0A4D /* ios_rustTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_rustTests.swift; sourceTree = "<group>"; };
+		A322F3B028F0909B000A0A4D /* ios-rustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-rustUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A322F3B428F0909B000A0A4D /* ios_rustUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_rustUITests.swift; sourceTree = "<group>"; };
+		A322F3B628F0909B000A0A4D /* ios_rustUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_rustUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A322F39228F09099000A0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A322F3A328F0909B000A0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A322F3AD28F0909B000A0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A322F38C28F09099000A0A4D = {
+			isa = PBXGroup;
+			children = (
+				A322F39728F09099000A0A4D /* ios-rust */,
+				A322F3A928F0909B000A0A4D /* ios-rustTests */,
+				A322F3B328F0909B000A0A4D /* ios-rustUITests */,
+				A322F39628F09099000A0A4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A322F39628F09099000A0A4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A322F39528F09099000A0A4D /* ios-rust.app */,
+				A322F3A628F0909B000A0A4D /* ios-rustTests.xctest */,
+				A322F3B028F0909B000A0A4D /* ios-rustUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A322F39728F09099000A0A4D /* ios-rust */ = {
+			isa = PBXGroup;
+			children = (
+				A322F39828F09099000A0A4D /* ios_rustApp.swift */,
+				A322F39A28F09099000A0A4D /* ContentView.swift */,
+				A322F39C28F0909A000A0A4D /* Assets.xcassets */,
+				A322F3A128F0909A000A0A4D /* ios_rust.entitlements */,
+				A322F39E28F0909A000A0A4D /* Preview Content */,
+			);
+			path = "ios-rust";
+			sourceTree = "<group>";
+		};
+		A322F39E28F0909A000A0A4D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A322F39F28F0909A000A0A4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A322F3A928F0909B000A0A4D /* ios-rustTests */ = {
+			isa = PBXGroup;
+			children = (
+				A322F3AA28F0909B000A0A4D /* ios_rustTests.swift */,
+			);
+			path = "ios-rustTests";
+			sourceTree = "<group>";
+		};
+		A322F3B328F0909B000A0A4D /* ios-rustUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A322F3B428F0909B000A0A4D /* ios_rustUITests.swift */,
+				A322F3B628F0909B000A0A4D /* ios_rustUITestsLaunchTests.swift */,
+			);
+			path = "ios-rustUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A322F39428F09099000A0A4D /* ios-rust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A322F3BA28F0909B000A0A4D /* Build configuration list for PBXNativeTarget "ios-rust" */;
+			buildPhases = (
+				A322F39128F09099000A0A4D /* Sources */,
+				A322F39228F09099000A0A4D /* Frameworks */,
+				A322F39328F09099000A0A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-rust";
+			productName = "ios-rust";
+			productReference = A322F39528F09099000A0A4D /* ios-rust.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A322F3A528F0909B000A0A4D /* ios-rustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A322F3BD28F0909B000A0A4D /* Build configuration list for PBXNativeTarget "ios-rustTests" */;
+			buildPhases = (
+				A322F3A228F0909B000A0A4D /* Sources */,
+				A322F3A328F0909B000A0A4D /* Frameworks */,
+				A322F3A428F0909B000A0A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A322F3A828F0909B000A0A4D /* PBXTargetDependency */,
+			);
+			name = "ios-rustTests";
+			productName = "ios-rustTests";
+			productReference = A322F3A628F0909B000A0A4D /* ios-rustTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A322F3AF28F0909B000A0A4D /* ios-rustUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A322F3C028F0909B000A0A4D /* Build configuration list for PBXNativeTarget "ios-rustUITests" */;
+			buildPhases = (
+				A322F3AC28F0909B000A0A4D /* Sources */,
+				A322F3AD28F0909B000A0A4D /* Frameworks */,
+				A322F3AE28F0909B000A0A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A322F3B228F0909B000A0A4D /* PBXTargetDependency */,
+			);
+			name = "ios-rustUITests";
+			productName = "ios-rustUITests";
+			productReference = A322F3B028F0909B000A0A4D /* ios-rustUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A322F38D28F09099000A0A4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A322F39428F09099000A0A4D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A322F3A528F0909B000A0A4D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A322F39428F09099000A0A4D;
+					};
+					A322F3AF28F0909B000A0A4D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A322F39428F09099000A0A4D;
+					};
+				};
+			};
+			buildConfigurationList = A322F39028F09099000A0A4D /* Build configuration list for PBXProject "ios-rust" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A322F38C28F09099000A0A4D;
+			productRefGroup = A322F39628F09099000A0A4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A322F39428F09099000A0A4D /* ios-rust */,
+				A322F3A528F0909B000A0A4D /* ios-rustTests */,
+				A322F3AF28F0909B000A0A4D /* ios-rustUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A322F39328F09099000A0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A322F3A028F0909A000A0A4D /* Preview Assets.xcassets in Resources */,
+				A322F39D28F0909A000A0A4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A322F3A428F0909B000A0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A322F3AE28F0909B000A0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A322F39128F09099000A0A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A322F39B28F09099000A0A4D /* ContentView.swift in Sources */,
+				A322F39928F09099000A0A4D /* ios_rustApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A322F3A228F0909B000A0A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A322F3AB28F0909B000A0A4D /* ios_rustTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A322F3AC28F0909B000A0A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A322F3B728F0909B000A0A4D /* ios_rustUITestsLaunchTests.swift in Sources */,
+				A322F3B528F0909B000A0A4D /* ios_rustUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A322F3A828F0909B000A0A4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A322F39428F09099000A0A4D /* ios-rust */;
+			targetProxy = A322F3A728F0909B000A0A4D /* PBXContainerItemProxy */;
+		};
+		A322F3B228F0909B000A0A4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A322F39428F09099000A0A4D /* ios-rust */;
+			targetProxy = A322F3B128F0909B000A0A4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A322F3B828F0909B000A0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A322F3B928F0909B000A0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A322F3BB28F0909B000A0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-rust/ios_rust.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-rust/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jhdees.ios-rust";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A322F3BC28F0909B000A0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-rust/ios_rust.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-rust/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jhdees.ios-rust";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A322F3BE28F0909B000A0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jhdees.ios-rustTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-rust.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-rust";
+			};
+			name = Debug;
+		};
+		A322F3BF28F0909B000A0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jhdees.ios-rustTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-rust.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-rust";
+			};
+			name = Release;
+		};
+		A322F3C128F0909B000A0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jhdees.ios-rustUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ios-rust";
+			};
+			name = Debug;
+		};
+		A322F3C228F0909B000A0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jhdees.ios-rustUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ios-rust";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A322F39028F09099000A0A4D /* Build configuration list for PBXProject "ios-rust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A322F3B828F0909B000A0A4D /* Debug */,
+				A322F3B928F0909B000A0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A322F3BA28F0909B000A0A4D /* Build configuration list for PBXNativeTarget "ios-rust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A322F3BB28F0909B000A0A4D /* Debug */,
+				A322F3BC28F0909B000A0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A322F3BD28F0909B000A0A4D /* Build configuration list for PBXNativeTarget "ios-rustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A322F3BE28F0909B000A0A4D /* Debug */,
+				A322F3BF28F0909B000A0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A322F3C028F0909B000A0A4D /* Build configuration list for PBXNativeTarget "ios-rustUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A322F3C128F0909B000A0A4D /* Debug */,
+				A322F3C228F0909B000A0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A322F38D28F09099000A0A4D /* Project object */;
+}
