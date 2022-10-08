@@ -14,6 +14,9 @@
 		A322F3AB28F0909B000A0A4D /* ios_rustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322F3AA28F0909B000A0A4D /* ios_rustTests.swift */; };
 		A322F3B528F0909B000A0A4D /* ios_rustUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322F3B428F0909B000A0A4D /* ios_rustUITests.swift */; };
 		A322F3B728F0909B000A0A4D /* ios_rustUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322F3B628F0909B000A0A4D /* ios_rustUITestsLaunchTests.swift */; };
+		A322F3CE28F096EC000A0A4D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A322F3CD28F096E4000A0A4D /* libresolv.tbd */; };
+		A3CC7D2028F1AB41006A10CC /* greetings in Resources */ = {isa = PBXBuildFile; fileRef = A3CC7D1F28F1AB41006A10CC /* greetings */; };
+		A3CC7D2528F1B95C006A10CC /* libgreetings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CC7D2428F1B950006A10CC /* libgreetings.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 		A322F3B028F0909B000A0A4D /* ios-rustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-rustUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A322F3B428F0909B000A0A4D /* ios_rustUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_rustUITests.swift; sourceTree = "<group>"; };
 		A322F3B628F0909B000A0A4D /* ios_rustUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_rustUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A322F3CD28F096E4000A0A4D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
+		A322F3D228F0989D000A0A4D /* Greetings-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Greetings-Bridge-Header.h"; sourceTree = "<group>"; };
+		A3CC7D1F28F1AB41006A10CC /* greetings */ = {isa = PBXFileReference; lastKnownFileType = folder; path = greetings; sourceTree = "<group>"; };
+		A3CC7D2228F1AB69006A10CC /* compile-library.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "compile-library.sh"; sourceTree = "<group>"; };
+		A3CC7D2328F1B90E006A10CC /* greetings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = greetings.h; path = greetings/src/greetings.h; sourceTree = "<group>"; };
+		A3CC7D2428F1B950006A10CC /* libgreetings.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgreetings.a; path = greetings/target/universal/release/libgreetings.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CC7D2528F1B95C006A10CC /* libgreetings.a in Frameworks */,
+				A322F3CE28F096EC000A0A4D /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +86,14 @@
 		A322F38C28F09099000A0A4D = {
 			isa = PBXGroup;
 			children = (
+				A3CC7D2328F1B90E006A10CC /* greetings.h */,
+				A3CC7D2128F1AB54006A10CC /* bin */,
+				A3CC7D1F28F1AB41006A10CC /* greetings */,
 				A322F39728F09099000A0A4D /* ios-rust */,
 				A322F3A928F0909B000A0A4D /* ios-rustTests */,
 				A322F3B328F0909B000A0A4D /* ios-rustUITests */,
 				A322F39628F09099000A0A4D /* Products */,
+				A322F3C328F090CF000A0A4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +115,7 @@
 				A322F39C28F0909A000A0A4D /* Assets.xcassets */,
 				A322F3A128F0909A000A0A4D /* ios_rust.entitlements */,
 				A322F39E28F0909A000A0A4D /* Preview Content */,
+				A322F3D228F0989D000A0A4D /* Greetings-Bridge-Header.h */,
 			);
 			path = "ios-rust";
 			sourceTree = "<group>";
@@ -129,6 +145,23 @@
 			path = "ios-rustUITests";
 			sourceTree = "<group>";
 		};
+		A322F3C328F090CF000A0A4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3CC7D2428F1B950006A10CC /* libgreetings.a */,
+				A322F3CD28F096E4000A0A4D /* libresolv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3CC7D2128F1AB54006A10CC /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				A3CC7D2228F1AB69006A10CC /* compile-library.sh */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +172,7 @@
 				A322F39128F09099000A0A4D /* Sources */,
 				A322F39228F09099000A0A4D /* Frameworks */,
 				A322F39328F09099000A0A4D /* Resources */,
+				A3CC7D1B28F1AA5C006A10CC /* Build Rust library */,
 			);
 			buildRules = (
 			);
@@ -234,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A322F3A028F0909A000A0A4D /* Preview Assets.xcassets in Resources */,
+				A3CC7D2028F1AB41006A10CC /* greetings in Resources */,
 				A322F39D28F0909A000A0A4D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +288,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3CC7D1B28F1AA5C006A10CC /* Build Rust library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Rust library";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash ${PROJECT_DIR}/bin/compile-library.sh greetings $buildvariant\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A322F39128F09099000A0A4D /* Sources */ = {
@@ -427,11 +483,19 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=arm64]" = "$(PROJECT_DIR)/greetings/target/aarch64-apple-ios/debug";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=arm64]" = "$(PROJECT_DIR)/greetings/target/aarch64-apple-ios-sim/debug";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jhdees.ios-rust";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/ios-rust/Greetings-Bridge-Header.h";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				buildvariant = debug;
 			};
 			name = Debug;
 		};
@@ -452,11 +516,19 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=arm64]" = "$(PROJECT_DIR)/greetings/target/aarch64-apple-ios/release";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=arm64]" = "$(PROJECT_DIR)/greetings/target/aarch64-apple-ios-sim/release";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jhdees.ios-rust";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/ios-rust/Greetings-Bridge-Header.h";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				buildvariant = release;
 			};
 			name = Release;
 		};
